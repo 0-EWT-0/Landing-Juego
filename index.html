@@ -1,39 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Landing de Videojuego</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header class="main-header">
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#caracteristicas">Características</a></li>
-                    <li><a href="#descargar">Descargar</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <div class="content-it">
-                <div class="text-image">
-                    <h1>Juego</h1>
-                    <b>Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book</b>
-                </div>
-                <div class="image-image">
-                    <img src="img/game.png" alt="Imagen del juego">
-                </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing de Videojuego</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+</head>
+
+<body>
+    <header class="bg-black/85">
+        <nav>
+            <ul class="text-white font-black flex justify-end gap-4 p-4">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#caracteristicas">Acerca de</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><button class="">Descargar</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="rounded flex col-2 grid-4 p-20 bg-black">
+         <div class="rounded text-white text-justify-center text-center m-10">
+            <h1 class="text-6xl mb-10">Titulo</h1>
+            <b class="mt-10 text-xl font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</b>
+            <div class ="bttns flex col-2 grid-2 gap-6 mt-20 justify-center">
+                <button class="text-2xl rounded cursor-pointer">Probar</button>
+                <button class="text-2xl rounded bg-red-950 py-3 px-6 cursor-pointer">Comprar</button>
             </div>
-        </main>
-        <footer class="main-footer">
-            <p>&copy;Videojuego. Todos los derechos reservados.</p>
-        </footer>
-    </body>
+         </div>
+
+         <div class="rounded m-10">
+            <div class="rounded bg-white">
+                <h1 class="p-50">aca la imagen</h1>
+            </div>
+         </div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <p>&copy;Videojuego. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
 </html>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+    * {
+        font-family: 'Oswald';
+    }
+</style>
