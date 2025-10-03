@@ -1,0 +1,29 @@
+body, header, footer, main {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image:url('dark_woods.png');
+    background-size: cover;
+}
+
+.main-header {
+  background-color: #2a0806; /* Green */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.main-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
