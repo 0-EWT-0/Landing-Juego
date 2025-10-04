@@ -6,38 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing de Videojuego</title>
     <link rel="stylesheet" href="styles.css">
-
+    <link rel="preload" href="./public/fonts/Witchwoode-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 </head>
 
-
-<header class="bg-[#222222]">
-    <nav>
-        <ul
-            class="text-white py-4 uppercase font-black flex justify-end items-center gap-8 transition duration ease-in-out all">
-            <li class="hover:text-[#C60C0C] transition duration ease-in-out all"><a href="#inicio">Inicio</a></li>
-            <li class="hover:text-[#C60C0C]  transition duration ease-in-out all"><a href="#caracteristicas">Acerca
-                    de</a></li>
-            <li class="hover:text-[#C60C0C]  transition duration ease-in-out all"><a href="#contacto">Contacto</a>
-            </li>
-            <li
-                class="bg-[#C60C0C] p-4 uppercase cursor-pointer hover:bg-white hover:text-[#C60C0C] transition duration-300 ease-in-out all hover:scale-125">
-                Descargar</li>
-        </ul>
-    </nav>
-</header>
-
 <body>
-    <div class="relative w-full h-screen">
-        <img class="object-cover w-full h-screen" src="https://cl2.buscafs.com/www.levelup.com/public/uploads/images/680936/680936.gif">
-        <div class="absolute inset-0 flex flex-col justify-center items-center">
-            <div class="flex gap-8">
-                <button class="font-black bg-[#C60C0C] p-4 uppercase cursor-pointer hover:bg-white hover:text-[#C60C0C] transition duration-300 ease-in-out all hover:scale-125">Ver trailer</button>
-                <button class="font-black bg-[#C60C0C] p-4 uppercase cursor-pointer hover:bg-white hover:text-[#C60C0C] transition duration-300 ease-in-out all hover:scale-125">Descargar</button>
+    <header class="bg-[#222222]">
+        <nav>
+            <ul
+                class="text-white py-4 uppercase font-black flex justify-end items-center gap-8 transition duration ease-in-out all">
+                <li class="hover:text-[#C60C0C] transition duration ease-in-out all"><a href="#inicio">Inicio</a></li>
+                <li class="hover:text-[#C60C0C]  transition duration ease-in-out all"><a href="#caracteristicas">Acerca
+                        de</a></li>
+                <li class="hover:text-[#C60C0C]  transition duration ease-in-out all"><a href="#contacto">Contacto</a>
+                </li>
+                <li
+                    class="bg-[#C60C0C] p-4 uppercase cursor-pointer hover:bg-white hover:text-[#C60C0C] transition duration-300 ease-in-out all hover:scale-125">
+                    Descargar</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="relative w-full h-screen">
+            <img class="object-cover w-full h-screen" src="./dark_woods.png">
+            <div class="absolute inset-0 flex flex-col justify-center items-center">
+                <div class="flex gap-8">
+                    <button
+                        class="font-black text-white bg-[#C60C0C] p-4 uppercase cursor-pointer hover:bg-white hover:text-[#C60C0C] transition duration-300 ease-in-out all hover:scale-125">Ver
+                        trailer</button>
+                    <button
+                        class="font-black  text-white bg-[#C60C0C] p-4 uppercase cursor-pointer hover:bg-white hover:text-[#C60C0C] transition duration-300 ease-in-out all hover:scale-125">Descargar</button>
+                </div>
             </div>
         </div>
-    </div>
+
+
+        <div class="rounded flex lg:col-2 md:col-2 grid-4 p-20 bg-black">
+            <div class="rounded text-white text-justify-center text-center m-10">
+                <h1 class="text-6xl mb-10">Titulo</h1>
+                <b class="mt-10 text-xl font-light">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                    unknown printer took a galley of type and scrambled it to make a type specimen book It has survived
+                    not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                    unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                    Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+                    versions of Lorem Ipsum.</b>
+                <div class="bttns flex col-2 grid-2 gap-6 mt-20 justify-center">
+                    <button class="text-2xl rounded cursor-pointer">Probar</button>
+                    <button class="text-2xl rounded bg-red-950 py-3 px-6 cursor-pointer">Comprar</button>
+                </div>
+            </div>
+
+            <div class="rounded m-10">
+                <div class="rounded bg-white">
+                    <h1 class="p-50">aca la imagen</h1>
+                </div>
+            </div>
+        </div>
+        </div>
 
 </body>
 
