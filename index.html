@@ -11,26 +11,39 @@
 </head>
 </head>
 
-<body>
-    <header class="bg-black/85">
-        <nav>
-            <ul class="text-white font-black flex justify-end gap-4 p-4">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#caracteristicas">Acerca de</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-                <li><button class="">Descargar</button></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="content">
 
+<header class="bg-[#222222]">
+    <nav>
+        <ul
+            class="text-white py-4 uppercase font-black flex justify-end items-center gap-8 transition duration ease-in-out all">
+            <li class="hover:text-[#C60C0C] transition duration ease-in-out all"><a href="#inicio">Inicio</a></li>
+            <li class="hover:text-[#C60C0C]  transition duration ease-in-out all"><a href="#caracteristicas">Acerca
+                    de</a></li>
+            <li class="hover:text-[#C60C0C]  transition duration ease-in-out all"><a href="#contacto">Contacto</a>
+            </li>
+            <li
+                class="bg-[#C60C0C] p-4 uppercase cursor-pointer hover:bg-white hover:text-[#C60C0C] transition duration-300 ease-in-out all hover:scale-125">
+                Descargar</li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="relative w-full h-screen">
+        <img class="object-cover w-full h-screen" src="https://cl2.buscafs.com/www.levelup.com/public/uploads/images/680936/680936.gif">
+        <div class="absolute inset-0 flex flex-col justify-center items-center">
+            <div class="flex gap-8">
+                <button class="font-black bg-[#C60C0C] p-4 uppercase cursor-pointer hover:bg-white hover:text-[#C60C0C] transition duration-300 ease-in-out all hover:scale-125">Ver trailer</button>
+                <button class="font-black bg-[#C60C0C] p-4 uppercase cursor-pointer hover:bg-white hover:text-[#C60C0C] transition duration-300 ease-in-out all hover:scale-125">Descargar</button>
+            </div>
         </div>
-    </main>
-    <footer class="main-footer">
-        <p>&copy;Videojuego. Todos los derechos reservados.</p>
-    </footer>
+    </div>
+
 </body>
+
+<footer class="main-footer">
+    <p>&copy;Videojuego. Todos los derechos reservados.</p>
+</footer>
 
 </html>
 

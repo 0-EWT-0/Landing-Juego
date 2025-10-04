@@ -7,8 +7,8 @@ main {
 }
 
 body {
-  background-image: url("dark_woods.png");
-  background-size: cover;
+  /* background-image: url("dark_woods.png");
+  background-size: cover; */
 }
 
 .nav-links {
